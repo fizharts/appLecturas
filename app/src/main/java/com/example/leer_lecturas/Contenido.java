@@ -6,16 +6,10 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Gravity;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TableLayout;
-import android.widget.TableRow;
-import android.widget.TextView;
-import android.widget.Toast;
 
 
-public class Contenido extends AppCompatActivity
-        implements View.OnClickListener {
+
+public class Contenido extends AppCompatActivity {
 
 
 
@@ -27,8 +21,5 @@ public class Contenido extends AppCompatActivity
 
     }
 
-    @Override
-    public void onClick(View view) {
 
-    }
 }

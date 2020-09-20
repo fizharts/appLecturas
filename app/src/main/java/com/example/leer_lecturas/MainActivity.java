@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_accion = (Button) findViewById(R.id.btn_presentacion);
+        btn_accion = findViewById(R.id.btn_presentacion);
         btn_accion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Hola a todos", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(
                         MainActivity.this,
-                        Contenido.class
+                        sms.class
                 );
                 intent.putExtra(
                         "greeter",
